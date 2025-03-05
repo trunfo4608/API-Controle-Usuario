@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "UsuariosApp.Services.Controllers.UsuariosController",
+    "Method": "Autentificar",
+    "RelativePath": "api/usuarios/autentificar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UsuariosApp.Aplication.Dto.AutenticarRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UsuariosApp.Aplication.Dto.AutenticarResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "UsuariosApp.Services.Controllers.UsuariosController",
+    "Method": "CriarConta",
+    "RelativePath": "api/usuarios/criarconta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UsuariosApp.Aplication.Dto.CriarContaRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UsuariosApp.Aplication.Dto.CriarContaResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      }
+    ]
+  }
+]
