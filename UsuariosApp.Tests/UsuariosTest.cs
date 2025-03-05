@@ -18,6 +18,7 @@ namespace UsuariosApp.Tests
 
         //[Fact(Skip ="Não implementado")]
         [Fact]
+        [Trait("CriarConta_ReturnsCreated","1")]
         public void CriarConta_RetunsCreated()
         {
             
@@ -43,6 +44,7 @@ namespace UsuariosApp.Tests
 
         // [Fact(Skip ="Não implementado")]
         [Fact]
+        [Trait("CriarConta_ReturnsBadRequest","2")]
         public void CriarConta_ReturnsBadRequest()
         {
             var client = new WebApplicationFactory<Program>().CreateClient();
@@ -65,16 +67,47 @@ namespace UsuariosApp.Tests
         }
 
 
-        [Fact(Skip ="Não implementado")]
+        // [Fact(Skip ="Não implementado")]
+        [Fact]
+        [Trait("Autentificar_ReturnOk","3")]
         public void Autentificar_ReturnOk()
         {
+            var client = new WebApplicationFactory<Program>().CreateClient();
+
+            var dto = new AutenticarRequestDto
+            {
+                Email = "camila@gmail.com",
+                Senha = "R@v00726"
+            };
+
+            var jsonRequest = new StringContent(JsonConvert.SerializeObject(dto),
+                Encoding.UTF8, "application/json");
+
+            var response = client.PostAsync("api/usuarios/autenticar", jsonRequest).Result;
+
+            response.StatusCode.Should().Be(HttpStatusCode.OK);
 
         }
 
-        [Fact(Skip ="Não implementado")]
+        //[Fact(Skip ="Não implementado")]
+        [Fact]
+        [Trait("Autentificar_ReturnsBadRequest","4")]
         public void Autentificar_ReturnsBadRequest()
         {
+            var client = new WebApplicationFactory<Program>().CreateClient();
 
+            var dto = new AutenticarRequestDto
+            {
+                Email = _email,
+                Senha = _senha
+            };
+
+            var jsonRequest = new StringContent(JsonConvert.SerializeObject(dto),
+                Encoding.UTF8, "application/json");
+
+            var response = client.PostAsync("api/usuarios/autenticar", jsonRequest).Result;
+
+            response.StatusCode.Should().Be(HttpStatusCode.BadRequest);
         }
     }
 }

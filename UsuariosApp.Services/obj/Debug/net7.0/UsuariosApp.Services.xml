@@ -4,7 +4,7 @@
         <name>UsuariosApp.Services</name>
     </assembly>
     <members>
-        <member name="M:UsuariosApp.Services.Controllers.UsuariosController.Autentificar(UsuariosApp.Aplication.Dto.AutenticarRequestDto)">
+        <member name="M:UsuariosApp.Services.Controllers.UsuariosController.Autenticar(UsuariosApp.Aplication.Dto.AutenticarRequestDto)">
             <summary>
             Serviço para autentificar o usuário e obter token de acesso
             </summary>

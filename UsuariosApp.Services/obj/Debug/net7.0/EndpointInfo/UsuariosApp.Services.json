@@ -11,7 +11,7 @@
     "version": "v1"
   },
   "paths": {
-    "/api/usuarios/autentificar": {
+    "/api/usuarios/autenticar": {
       "post": {
         "tags": [
           "Usuarios"

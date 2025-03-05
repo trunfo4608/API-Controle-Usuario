@@ -13,3 +13,4 @@ C:\Users\trunf\source\repos\UsuariosApp\UsuariosApp.Aplication\bin\Debug\net7.0\
 C:\Users\trunf\source\repos\UsuariosApp\UsuariosApp.Aplication\bin\Debug\net7.0\UsuarioApp.Domain.pdb
 C:\Users\trunf\source\repos\UsuariosApp\UsuariosApp.Aplication\obj\Debug\net7.0\UsuariosApp.Aplication.csproj.AssemblyReference.cache
 C:\Users\trunf\source\repos\UsuariosApp\UsuariosApp.Aplication\obj\Debug\net7.0\Usuarios.7B77A849.Up2Date
+C:\Users\trunf\source\repos\UsuariosApp\UsuariosApp.Aplication\obj\Debug\net7.0\UsuariosApp.Aplication.sourcelink.json

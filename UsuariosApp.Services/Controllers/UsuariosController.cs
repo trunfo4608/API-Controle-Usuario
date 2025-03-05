@@ -19,9 +19,9 @@ namespace UsuariosApp.Services.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpPost]
-        [Route("Autentificar")]
+        [Route("Autenticar")]
         [ProducesResponseType(typeof(AutenticarResponseDto),200)]
-        public IActionResult Autentificar([FromBody] AutenticarRequestDto dto)
+        public IActionResult Autenticar([FromBody] AutenticarRequestDto dto)
         {
             try
             {

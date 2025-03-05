@@ -1,8 +1,8 @@
 [
   {
     "ContainingType": "UsuariosApp.Services.Controllers.UsuariosController",
-    "Method": "Autentificar",
-    "RelativePath": "api/usuarios/autentificar",
+    "Method": "Autenticar",
+    "RelativePath": "api/usuarios/autenticar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

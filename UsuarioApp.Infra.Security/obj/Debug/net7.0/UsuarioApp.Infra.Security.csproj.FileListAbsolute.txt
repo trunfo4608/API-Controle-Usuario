@@ -15,3 +15,4 @@ C:\Users\trunf\source\repos\UsuariosApp\UsuarioApp.Infra.Security\obj\Debug\net7
 C:\Users\trunf\source\repos\UsuariosApp\UsuarioApp.Infra.Security\obj\Debug\net7.0\UsuarioApp.Infra.Security.pdb
 C:\Users\trunf\source\repos\UsuariosApp\UsuarioApp.Infra.Security\obj\Debug\net7.0\UsuarioApp.Infra.Security.genruntimeconfig.cache
 C:\Users\trunf\source\repos\UsuariosApp\UsuarioApp.Infra.Security\obj\Debug\net7.0\ref\UsuarioApp.Infra.Security.dll
+C:\Users\trunf\source\repos\UsuariosApp\UsuarioApp.Infra.Security\obj\Debug\net7.0\UsuarioApp.Infra.Security.sourcelink.json

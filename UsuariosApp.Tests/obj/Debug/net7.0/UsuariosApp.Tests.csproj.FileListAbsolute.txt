@@ -469,3 +469,4 @@ C:\Users\trunf\source\repos\UsuariosApp\UsuariosApp.Tests\bin\Debug\net7.0\Micro
 C:\Users\trunf\source\repos\UsuariosApp\UsuariosApp.Tests\bin\Debug\net7.0\Microsoft.Extensions.Hosting.dll
 C:\Users\trunf\source\repos\UsuariosApp\UsuariosApp.Tests\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 C:\Users\trunf\source\repos\UsuariosApp\UsuariosApp.Tests\obj\Debug\net7.0\MvcTestingAppManifest.json
+C:\Users\trunf\source\repos\UsuariosApp\UsuariosApp.Tests\obj\Debug\net7.0\UsuariosApp.Tests.sourcelink.json
