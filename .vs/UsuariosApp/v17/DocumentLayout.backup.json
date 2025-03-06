@@ -1,7 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\trunf\\source\\repos\\UsuariosApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB7B68BF-9EEE-4530-BEEE-FEF62F6BC343}|UsuariosApp.Infra.Messages\\UsuariosApp.Infra.Messages.csproj|c:\\users\\trunf\\source\\repos\\usuariosapp\\usuariosapp.infra.messages\\consumers\\emailmessageconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB7B68BF-9EEE-4530-BEEE-FEF62F6BC343}|UsuariosApp.Infra.Messages\\UsuariosApp.Infra.Messages.csproj|solutionrelative:usuariosapp.infra.messages\\consumers\\emailmessageconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE944FA-364F-46B3-97B0-B1BCDE02FC2E}|UsuarioApp.Domain\\UsuarioApp.Domain.csproj|c:\\users\\trunf\\source\\repos\\usuariosapp\\usuarioapp.domain\\services\\usuariodomainservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE944FA-364F-46B3-97B0-B1BCDE02FC2E}|UsuarioApp.Domain\\UsuarioApp.Domain.csproj|solutionrelative:usuarioapp.domain\\services\\usuariodomainservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB7B68BF-9EEE-4530-BEEE-FEF62F6BC343}|UsuariosApp.Infra.Messages\\UsuariosApp.Infra.Messages.csproj|c:\\users\\trunf\\source\\repos\\usuariosapp\\usuariosapp.infra.messages\\messages\\emailmessageproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB7B68BF-9EEE-4530-BEEE-FEF62F6BC343}|UsuariosApp.Infra.Messages\\UsuariosApp.Infra.Messages.csproj|solutionrelative:usuariosapp.infra.messages\\messages\\emailmessageproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\trunf\\AppData\\Local\\Temp\\fvflbcl1..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EFC4E04-602F-4945-B12F-A90D51A14C0B}|UsuariosApp.Services\\UsuariosApp.Services.csproj|c:\\users\\trunf\\source\\repos\\usuariosapp\\usuariosapp.services\\extensions\\dependencyinjectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EFC4E04-602F-4945-B12F-A90D51A14C0B}|UsuariosApp.Services\\UsuariosApp.Services.csproj|solutionrelative:usuariosapp.services\\extensions\\dependencyinjectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB7B68BF-9EEE-4530-BEEE-FEF62F6BC343}|UsuariosApp.Infra.Messages\\UsuariosApp.Infra.Messages.csproj|c:\\users\\trunf\\source\\repos\\usuariosapp\\usuariosapp.infra.messages\\settings\\messagesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB7B68BF-9EEE-4530-BEEE-FEF62F6BC343}|UsuariosApp.Infra.Messages\\UsuariosApp.Infra.Messages.csproj|solutionrelative:usuariosapp.infra.messages\\settings\\messagesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\trunf\\AppData\\Local\\Temp\\fvflbcl1..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\trunf\\AppData\\Local\\Temp\\fvflbcl1..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,7 +39,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 140,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +48,82 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\trunf\\AppData\\Local\\Temp\\fvflbcl1..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\fvflbcl1..sql",
+              "ToolTip": "SQLQuery1.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-06T16:16:55.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjectionExtension.cs",
+              "DocumentMoniker": "C:\\Users\\trunf\\source\\repos\\UsuariosApp\\UsuariosApp.Services\\Extensions\\DependencyInjectionExtension.cs",
+              "RelativeDocumentMoniker": "UsuariosApp.Services\\Extensions\\DependencyInjectionExtension.cs",
+              "ToolTip": "C:\\Users\\trunf\\source\\repos\\UsuariosApp\\UsuariosApp.Services\\Extensions\\DependencyInjectionExtension.cs",
+              "RelativeToolTip": "UsuariosApp.Services\\Extensions\\DependencyInjectionExtension.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA1wBoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T15:39:43.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailMessageConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\trunf\\source\\repos\\UsuariosApp\\UsuariosApp.Infra.Messages\\Consumers\\EmailMessageConsumer.cs",
+              "RelativeDocumentMoniker": "UsuariosApp.Infra.Messages\\Consumers\\EmailMessageConsumer.cs",
+              "ToolTip": "C:\\Users\\trunf\\source\\repos\\UsuariosApp\\UsuariosApp.Infra.Messages\\Consumers\\EmailMessageConsumer.cs",
+              "RelativeToolTip": "UsuariosApp.Infra.Messages\\Consumers\\EmailMessageConsumer.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAUwDQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T15:12:48.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MessageSettings.cs",
+              "DocumentMoniker": "C:\\Users\\trunf\\source\\repos\\UsuariosApp\\UsuariosApp.Infra.Messages\\Settings\\MessageSettings.cs",
+              "RelativeDocumentMoniker": "UsuariosApp.Infra.Messages\\Settings\\MessageSettings.cs",
+              "ToolTip": "C:\\Users\\trunf\\source\\repos\\UsuariosApp\\UsuariosApp.Infra.Messages\\Settings\\MessageSettings.cs",
+              "RelativeToolTip": "UsuariosApp.Infra.Messages\\Settings\\MessageSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T15:00:52.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailMessageProducer.cs",
+              "DocumentMoniker": "C:\\Users\\trunf\\source\\repos\\UsuariosApp\\UsuariosApp.Infra.Messages\\Messages\\EmailMessageProducer.cs",
+              "RelativeDocumentMoniker": "UsuariosApp.Infra.Messages\\Messages\\EmailMessageProducer.cs",
+              "ToolTip": "C:\\Users\\trunf\\source\\repos\\UsuariosApp\\UsuariosApp.Infra.Messages\\Messages\\EmailMessageProducer.cs",
+              "RelativeToolTip": "UsuariosApp.Infra.Messages\\Messages\\EmailMessageProducer.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAADgvysAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T15:00:41.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioDomainServices.cs",
+              "DocumentMoniker": "C:\\Users\\trunf\\source\\repos\\UsuariosApp\\UsuarioApp.Domain\\Services\\UsuarioDomainServices.cs",
+              "RelativeDocumentMoniker": "UsuarioApp.Domain\\Services\\UsuarioDomainServices.cs",
+              "ToolTip": "C:\\Users\\trunf\\source\\repos\\UsuariosApp\\UsuarioApp.Domain\\Services\\UsuarioDomainServices.cs",
+              "RelativeToolTip": "UsuarioApp.Domain\\Services\\UsuarioDomainServices.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAiwFoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T15:00:26.212Z",
+              "EditorCaption": ""
             }
           ]
         },

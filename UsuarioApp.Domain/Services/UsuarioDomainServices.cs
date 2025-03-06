@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 using UsuarioApp.Domain.Entities;
 using UsuarioApp.Domain.Helpers;
 using UsuarioApp.Domain.Interfaces;
+using UsuarioApp.Domain.Interfaces.Messages;
 using UsuarioApp.Domain.Interfaces.Repositories;
 using UsuarioApp.Domain.Interfaces.Services;
+using UsuarioApp.Domain.Models;
 
 namespace UsuarioApp.Domain.Services
 {
@@ -17,12 +19,14 @@ namespace UsuarioApp.Domain.Services
         private readonly IUsuarioRepository? _usuarioRepository;
         private readonly IHistoricoAtividadeRepository? _historicoAtividadeRepository;
         private readonly ITokenSecurity? _tokenSecurity;
+        private readonly IEmailMessageProducer? _emailMessageProducer;
 
-        public UsuarioDomainServices(IUsuarioRepository? usuarioRepository, IHistoricoAtividadeRepository? historicoAtividadeRepository, ITokenSecurity? tokenSecurity)
+        public UsuarioDomainServices(IUsuarioRepository? usuarioRepository, IHistoricoAtividadeRepository? historicoAtividadeRepository, ITokenSecurity? tokenSecurity, IEmailMessageProducer? emailMessageProducer)
         {
             _usuarioRepository = usuarioRepository;
             _historicoAtividadeRepository = historicoAtividadeRepository;
             _tokenSecurity = tokenSecurity;
+            _emailMessageProducer = emailMessageProducer;
         }
 
         public Usuario Autentificar(string email, string senha)
@@ -66,6 +70,24 @@ namespace UsuarioApp.Domain.Services
             };
 
             _historicoAtividadeRepository?.Add(historicoAtividade);
+
+
+            var emailMessage = new EmailMessageModel
+            {
+                To = usuario.Email,
+                Subject = "Conta de usuário criada com sucesso - API Usuários ",
+                Body =$@"
+                          <div>
+                            <h3>Parabéns {usuario.Nome}, sua conta foi criada com sucesso!</h3>
+                            <p>Você foi cadastrado em nossa base de dados em {DateTime.Now}></p>
+                            <p>Utilize sua conta para acessar os recursos da aplicação</p>
+                            <p>Att, Renato Vasconcelos</p>
+                          </div>
+                        ",
+                IsHtml = true
+            };
+
+            _emailMessageProducer?.Send(emailMessage);
         }
     }
 }

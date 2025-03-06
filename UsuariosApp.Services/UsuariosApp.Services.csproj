@@ -18,6 +18,7 @@
     <ProjectReference Include="..\UsuarioApp.Infra.Data\UsuarioApp.Infra.Data.csproj" />
     <ProjectReference Include="..\UsuarioApp.Infra.Security\UsuarioApp.Infra.Security.csproj" />
     <ProjectReference Include="..\UsuariosApp.Aplication\UsuariosApp.Aplication.csproj" />
+    <ProjectReference Include="..\UsuariosApp.Infra.Messages\UsuariosApp.Infra.Messages.csproj" />
   </ItemGroup>
 
 </Project>

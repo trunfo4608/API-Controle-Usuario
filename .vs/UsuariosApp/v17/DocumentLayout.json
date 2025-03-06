@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\trunf\\source\\repos\\UsuariosApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB7B68BF-9EEE-4530-BEEE-FEF62F6BC343}|UsuariosApp.Infra.Messages\\UsuariosApp.Infra.Messages.csproj|c:\\users\\trunf\\source\\repos\\usuariosapp\\usuariosapp.infra.messages\\consumers\\emailmessageconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB7B68BF-9EEE-4530-BEEE-FEF62F6BC343}|UsuariosApp.Infra.Messages\\UsuariosApp.Infra.Messages.csproj|solutionrelative:usuariosapp.infra.messages\\consumers\\emailmessageconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE944FA-364F-46B3-97B0-B1BCDE02FC2E}|UsuarioApp.Domain\\UsuarioApp.Domain.csproj|c:\\users\\trunf\\source\\repos\\usuariosapp\\usuarioapp.domain\\services\\usuariodomainservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE944FA-364F-46B3-97B0-B1BCDE02FC2E}|UsuarioApp.Domain\\UsuarioApp.Domain.csproj|solutionrelative:usuarioapp.domain\\services\\usuariodomainservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 140,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +27,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailMessageConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\trunf\\source\\repos\\UsuariosApp\\UsuariosApp.Infra.Messages\\Consumers\\EmailMessageConsumer.cs",
+              "RelativeDocumentMoniker": "UsuariosApp.Infra.Messages\\Consumers\\EmailMessageConsumer.cs",
+              "ToolTip": "C:\\Users\\trunf\\source\\repos\\UsuariosApp\\UsuariosApp.Infra.Messages\\Consumers\\EmailMessageConsumer.cs",
+              "RelativeToolTip": "UsuariosApp.Infra.Messages\\Consumers\\EmailMessageConsumer.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T21:12:34.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioDomainServices.cs",
+              "DocumentMoniker": "C:\\Users\\trunf\\source\\repos\\UsuariosApp\\UsuarioApp.Domain\\Services\\UsuarioDomainServices.cs",
+              "RelativeDocumentMoniker": "UsuarioApp.Domain\\Services\\UsuarioDomainServices.cs",
+              "ToolTip": "C:\\Users\\trunf\\source\\repos\\UsuariosApp\\UsuarioApp.Domain\\Services\\UsuarioDomainServices.cs",
+              "RelativeToolTip": "UsuarioApp.Domain\\Services\\UsuarioDomainServices.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAiwE4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T15:00:26.212Z",
+              "EditorCaption": ""
             }
           ]
         },
