@@ -8,12 +8,12 @@ namespace UsuarioApp.Domain.Interfaces.Repositories
 {
     public interface IBaseRepository<TEntity> where TEntity : class
     {
-        void Add(TEntity entity);
-        void Update(TEntity entity);
-        void Delete (TEntity entity);
+        Task Add(TEntity entity);
+        Task Update(TEntity entity);
+        Task Delete (TEntity entity);
 
-        List<TEntity> GetAll();
-        TEntity GetById(int id);
+        Task<List<TEntity>> GetAll();
+        Task<TEntity> GetById(int id);
 
 
     }

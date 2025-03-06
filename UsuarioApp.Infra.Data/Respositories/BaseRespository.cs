@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,41 +13,41 @@ namespace UsuarioApp.Infra.Data.Respositories
         where TEntity : class
 
     {
-        public void Add(TEntity entity)
+        public virtual async Task Add(TEntity entity)
         {
             using(var dataContext =new DataContext())
             {
                 dataContext.Add(entity);
-                dataContext.SaveChanges();
+                await dataContext.SaveChangesAsync();
             }
         }
 
-        public void Delete(TEntity entity)
+        public virtual async Task Delete(TEntity entity)
         {
             using(var dataContext =new DataContext())
             {
                 dataContext.Remove(entity);
-                dataContext.SaveChanges();
+                await dataContext.SaveChangesAsync();
             }
         }
 
-        public List<TEntity> GetAll()
+        public virtual async Task<List<TEntity>> GetAll()
         {
             using(var dataContext = new DataContext())
             {
-                return dataContext.Set<TEntity>().ToList();
+                return await dataContext.Set<TEntity>().ToListAsync();
             }
         }
 
-        public TEntity GetById(int id)
+        public virtual async Task<TEntity> GetById(int id)
         {
             using(var dataContext = new DataContext())
             {
-                return dataContext.Set<TEntity>().Find(id);
+                return await dataContext.Set<TEntity>().FindAsync(id);
             }
         }
 
-        public void Update(TEntity entity)
+        public virtual async Task Update(TEntity entity)
         {
             throw new NotImplementedException();
         }

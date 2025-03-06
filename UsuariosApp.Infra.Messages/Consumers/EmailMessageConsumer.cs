@@ -73,7 +73,7 @@ namespace UsuariosApp.Infra.Messages.Consumers
 
         private void SendEmail(EmailMessageModel model)
         {
-            var email = "xxxx@gmail.com";
+            var email = "rav.trunfo@gmail.com";
             var senha = "chjo mjnm jrxy dnys ";
             var smtp = "smtp.gmail.com";
             var porta = 587;

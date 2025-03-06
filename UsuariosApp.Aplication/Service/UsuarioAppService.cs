@@ -20,9 +20,9 @@ namespace UsuariosApp.Aplication.Service
             _usuarioDomainService = usuarioDomainService;
         }
 
-        public AutenticarResponseDto Autentificar(AutenticarRequestDto dto)
+        public async Task<AutenticarResponseDto> Autentificar(AutenticarRequestDto dto)
         {
-            var usuario = _usuarioDomainService?.Autentificar(dto.Email, dto.Senha);
+            var usuario = await _usuarioDomainService?.Autentificar(dto.Email, dto.Senha);
 
             return new AutenticarResponseDto
             {
@@ -36,7 +36,7 @@ namespace UsuariosApp.Aplication.Service
 
         }
 
-        public CriarContaResponseDto CriarConta(CriarContaRequestDto dto)
+        public async Task<CriarContaResponseDto> CriarConta(CriarContaRequestDto dto)
         {
             var usuario = new Usuario
             {
@@ -45,7 +45,7 @@ namespace UsuariosApp.Aplication.Service
                 Senha = dto.Senha
             };
 
-            _usuarioDomainService?.CriarConta(usuario);
+            await _usuarioDomainService?.CriarConta(usuario);
 
             return new CriarContaResponseDto
             {
@@ -54,5 +54,7 @@ namespace UsuariosApp.Aplication.Service
                 DataHoraCadastro = DateTime.Now
             };
         }
+
+       
     }
 }

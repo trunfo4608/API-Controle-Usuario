@@ -1,0 +1,12 @@
+C:\Users\trunf\source\repos\UsuariosApp\UsuarioApp.Domain\bin\Debug\net7.0\UsuarioApp.Domain.deps.json
+C:\Users\trunf\source\repos\UsuariosApp\UsuarioApp.Domain\bin\Debug\net7.0\UsuarioApp.Domain.dll
+C:\Users\trunf\source\repos\UsuariosApp\UsuarioApp.Domain\bin\Debug\net7.0\UsuarioApp.Domain.pdb
+C:\Users\trunf\source\repos\UsuariosApp\UsuarioApp.Domain\obj\Debug\net7.0\UsuarioApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trunf\source\repos\UsuariosApp\UsuarioApp.Domain\obj\Debug\net7.0\UsuarioApp.Domain.AssemblyInfoInputs.cache
+C:\Users\trunf\source\repos\UsuariosApp\UsuarioApp.Domain\obj\Debug\net7.0\UsuarioApp.Domain.AssemblyInfo.cs
+C:\Users\trunf\source\repos\UsuariosApp\UsuarioApp.Domain\obj\Debug\net7.0\UsuarioApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\trunf\source\repos\UsuariosApp\UsuarioApp.Domain\obj\Debug\net7.0\UsuarioApp.Domain.sourcelink.json
+C:\Users\trunf\source\repos\UsuariosApp\UsuarioApp.Domain\obj\Debug\net7.0\UsuarioApp.Domain.dll
+C:\Users\trunf\source\repos\UsuariosApp\UsuarioApp.Domain\obj\Debug\net7.0\refint\UsuarioApp.Domain.dll
+C:\Users\trunf\source\repos\UsuariosApp\UsuarioApp.Domain\obj\Debug\net7.0\UsuarioApp.Domain.pdb
+C:\Users\trunf\source\repos\UsuariosApp\UsuarioApp.Domain\obj\Debug\net7.0\ref\UsuarioApp.Domain.dll

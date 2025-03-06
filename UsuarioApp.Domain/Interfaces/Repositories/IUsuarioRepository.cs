@@ -9,7 +9,7 @@ namespace UsuarioApp.Domain.Interfaces.Repositories
 {
     public interface IUsuarioRepository : IBaseRepository<Usuario>
     {
-        Usuario Find(string email);
-        Usuario Find(string email, string senha);
+        Task<Usuario> Find(string email);
+        Task<Usuario> Find(string email, string senha);
     }
 }

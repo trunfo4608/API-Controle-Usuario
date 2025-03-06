@@ -29,16 +29,16 @@ namespace UsuarioApp.Domain.Services
             _emailMessageProducer = emailMessageProducer;
         }
 
-        public Usuario Autentificar(string email, string senha)
+        public async Task<Usuario> Autentificar(string email, string senha)
         {
-            var usuario = _usuarioRepository?.Find(email, SHA1Helpers.Encrypt(senha));
+            var usuario = await _usuarioRepository?.Find (email, SHA1Helpers.Encrypt(senha));
 
             if (usuario == null)
             {
                 throw new ApplicationException("Usuario não encontrado");
             }
 
-            usuario.AcessToken = _tokenSecurity?.CreateToken(usuario);
+            usuario.AcessToken =  _tokenSecurity?.CreateToken(usuario);
 
             var historicoAtividade = new HistoricoAtividade
             {
@@ -47,20 +47,20 @@ namespace UsuarioApp.Domain.Services
                 UsuarioId = usuario.Id
             };
 
-            _historicoAtividadeRepository?.Add(historicoAtividade);
+            await _historicoAtividadeRepository?.Add(historicoAtividade);
 
             return usuario;
         }
 
-        public void CriarConta(Usuario usuario)
+        public async Task CriarConta(Usuario usuario)
         {
-            if (_usuarioRepository?.Find(SHA1Helpers.Encrypt(usuario.Email)) != null)
+            if (await _usuarioRepository?.Find(SHA1Helpers.Encrypt(usuario.Email)) != null)
                 throw new ApplicationException("Email cadastrado, tente outro.");
 
 
             usuario.Senha = SHA1Helpers.Encrypt(usuario.Senha);
 
-            _usuarioRepository?.Add(usuario);
+            await _usuarioRepository?.Add(usuario);
 
             var historicoAtividade = new HistoricoAtividade
             {
@@ -69,21 +69,20 @@ namespace UsuarioApp.Domain.Services
                 UsuarioId = usuario.Id
             };
 
-            _historicoAtividadeRepository?.Add(historicoAtividade);
+            await _historicoAtividadeRepository?.Add(historicoAtividade);
 
 
             var emailMessage = new EmailMessageModel
             {
                 To = usuario.Email,
-                Subject = "Conta de usuário criada com sucesso - API Usuários ",
-                Body =$@"
-                          <div>
-                            <h3>Parabéns {usuario.Nome}, sua conta foi criada com sucesso!</h3>
-                            <p>Você foi cadastrado em nossa base de dados em {DateTime.Now}></p>
-                            <p>Utilize sua conta para acessar os recursos da aplicação</p>
-                            <p>Att, Renato Vasconcelos</p>
-                          </div>
-                        ",
+                Subject = "Conta de usuário criada com sucesso - API Usuários",
+                Body = $@"Parabéns {usuario.Nome}, sua conta foi criada com sucesso!
+                          
+                          Você foi cadastrado em nossa base de dados em {DateTime.Now}
+                          Utilize sua conta para acessar os recursos da aplicação.
+                          
+                          Att, 
+                          Renato Vasconcelos.",
                 IsHtml = true
             };
 

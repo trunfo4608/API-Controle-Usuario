@@ -9,7 +9,7 @@ namespace UsuarioApp.Domain.Interfaces.Services
 {
     public interface IUsuarioDomainService
     {
-        Usuario Autentificar(string email, string senha);
-        void CriarConta(Usuario usuario);
+        Task<Usuario> Autentificar(string email, string senha);
+        Task CriarConta(Usuario usuario);
     }
 }

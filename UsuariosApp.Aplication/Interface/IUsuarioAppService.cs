@@ -9,7 +9,7 @@ namespace UsuariosApp.Aplication.Interface
 {
     public interface IUsuarioAppService
     {
-        AutenticarResponseDto Autentificar(AutenticarRequestDto dto);
-        CriarContaResponseDto CriarConta(CriarContaRequestDto dto);
+        Task<AutenticarResponseDto> Autentificar(AutenticarRequestDto dto);
+        Task<CriarContaResponseDto> CriarConta(CriarContaRequestDto dto);
     }
 }
